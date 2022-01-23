@@ -1,0 +1,36 @@
+.sidenav {
+    height: 100%;
+    width: 2vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    transition:width 2s;
+}
+.sidenav a {
+    padding: 8px 8px 8px 2vw;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+.sidenav:hover {
+    width:12vw;
+    transition: width 2s;
+}
+.sidenav a:hover{
+    background-color: #d5db2c ;
+}
+.menuItem{
+    background-color: #ff0000;
+}
+#heading{
+    font:800 48pt "Courier New";
+    color: #ff0000;
+    padding-left:2.5vw;
+}
+
